@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/zahra-hazara/Dice'
+                git 'https://github.com/zahra-hazara/Dice.git'
             }
         }
         stage('Build') {
